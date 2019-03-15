@@ -1,0 +1,610 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=8MZII-TB26T-XCQJ0-BRFDV-Q26WD-JQLK7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  D:\Software\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+D:\MOVT\H004_V0.0.18\examples\ble_peripheral\ble_app_template\pca10040\s132\arm5_no_packs\ble_app_template_pca10040_s132.uvprojx
+Project File Date:  06/15/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Software\Keil_v5\ARM\ARMCC\Bin'
+Build target 'flash_s132_nrf52_6.0.0_softdevice'
+Before Build - User command #1: attrib +R ..\..\..\..\..\..\components\softdevice\s132\hex\\*
+compiling allzero.c...
+compiling a2lsp.c...
+..\..\..\SRC\Libraries\bv32fp-1.2\a2lsp.c(50): error:  #5: cannot open source input file "app_debug.h": No such file or directory
+  #include "app_debug.h"
+..\..\..\SRC\Libraries\bv32fp-1.2\a2lsp.c: 0 warnings, 1 error
+compiling allpole.c...
+compiling autocor.c...
+compiling cmtables.c...
+compiling bitpack.c...
+compiling bvplc.c...
+compiling decoder.c...
+compiling encoder.c...
+compiling coarptch.c...
+compiling excdec.c...
+compiling excquan.c...
+compiling fineptch.c...
+compiling gaindec.c...
+compiling gainquan.c...
+compiling levdur.c...
+compiling levelest.c...
+compiling lsp2a.c...
+compiling lspdec.c...
+compiling lspquan.c...
+..\..\..\SRC\Libraries\bv32fp-1.2\lspquan.c(30): error:  #5: cannot open source input file "app_debug.h": No such file or directory
+  #include "app_debug.h"
+..\..\..\SRC\Libraries\bv32fp-1.2\lspquan.c: 0 warnings, 1 error
+compiling ptdec.c...
+compiling ptquan.c...
+compiling main.c...
+..\..\..\main.c(45): error:  #5: cannot open source input file "nrf_cli.h": No such file or directory
+  #include "nrf_cli.h"
+..\..\..\main.c: 0 warnings, 1 error
+compiling stblchck.c...
+compiling tables.c...
+compiling stblzlsp.c...
+compiling utility.c...
+compiling ana_filt_bank_1.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\ana_filt_bank_1.c: 0 warnings, 1 error
+compiling apply_sine_window_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\apply_sine_window_FIX.c: 0 warnings, 1 error
+compiling A2NLSF.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\A2NLSF.c: 0 warnings, 1 error
+compiling analysis.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\analysis.c: 0 warnings, 1 error
+compiling autocorr_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\autocorr_FIX.c: 0 warnings, 1 error
+compiling bands.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\bands.c: 0 warnings, 1 error
+compiling burg_modified_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\burg_modified_FIX.c: 0 warnings, 1 error
+compiling biquad_alt.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\biquad_alt.c: 0 warnings, 1 error
+compiling bwexpander.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\bwexpander.c: 0 warnings, 1 error
+compiling bwexpander_32.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\bwexpander_32.c: 0 warnings, 1 error
+compiling celt_encoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\celt_encoder.c: 0 warnings, 1 error
+compiling celt_decoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\celt_decoder.c: 0 warnings, 1 error
+compiling celt.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\celt.c: 0 warnings, 1 error
+compiling celt_lpc.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\celt_lpc.c: 0 warnings, 1 error
+compiling CNG.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\CNG.c: 0 warnings, 1 error
+compiling check_control_input.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\check_control_input.c: 0 warnings, 1 error
+compiling control_audio_bandwidth.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\control_audio_bandwidth.c: 0 warnings, 1 error
+compiling code_signs.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\code_signs.c: 0 warnings, 1 error
+compiling control_codec.c...
+..\..\..\SRC\Libraries\opus-1.2.1\control_codec.c(35): error:  #5: cannot open source input file "main_FLP.h": No such file or directory
+  #include "main_FLP.h"
+..\..\..\SRC\Libraries\opus-1.2.1\control_codec.c: 0 warnings, 1 error
+compiling control_SNR.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\control_SNR.c: 0 warnings, 1 error
+compiling corrMatrix_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\corrMatrix_FIX.c: 0 warnings, 1 error
+compiling cwrs.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\cwrs.c: 0 warnings, 1 error
+compiling debug.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\debug.c: 0 warnings, 1 error
+compiling dec_API.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\dec_API.c: 0 warnings, 1 error
+compiling decode_core.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\decode_core.c: 0 warnings, 1 error
+compiling decode_frame.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\decode_frame.c: 0 warnings, 1 error
+compiling decode_indices.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\decode_indices.c: 0 warnings, 1 error
+compiling decode_parameters.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\decode_parameters.c: 0 warnings, 1 error
+compiling decode_pitch.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\decode_pitch.c: 0 warnings, 1 error
+compiling decode_pulses.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\decode_pulses.c: 0 warnings, 1 error
+compiling decoder_set_fs.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\decoder_set_fs.c: 0 warnings, 1 error
+compiling enc_API.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\enc_API.c: 0 warnings, 1 error
+compiling encode_frame_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\encode_frame_FIX.c: 0 warnings, 1 error
+compiling encode_indices.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\encode_indices.c: 0 warnings, 1 error
+compiling encode_pulses.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\encode_pulses.c: 0 warnings, 1 error
+compiling entdec.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\entdec.c: 0 warnings, 1 error
+compiling entenc.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\entenc.c: 0 warnings, 1 error
+compiling entcode.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\entcode.c: 0 warnings, 1 error
+compiling find_LPC_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\find_LPC_FIX.c: 0 warnings, 1 error
+compiling find_LTP_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\find_LTP_FIX.c: 0 warnings, 1 error
+compiling find_pitch_lags_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\find_pitch_lags_FIX.c: 0 warnings, 1 error
+compiling gain_quant.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\gain_quant.c: 0 warnings, 1 error
+compiling find_pred_coefs_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\find_pred_coefs_FIX.c: 0 warnings, 1 error
+compiling HP_variable_cutoff.c...
+..\..\..\SRC\Libraries\opus-1.2.1\HP_variable_cutoff.c(34): error:  #5: cannot open source input file "main_FLP.h": No such file or directory
+  #include "main_FLP.h"
+..\..\..\SRC\Libraries\opus-1.2.1\HP_variable_cutoff.c: 0 warnings, 1 error
+compiling init_decoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\init_decoder.c: 0 warnings, 1 error
+compiling init_encoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\init_encoder.c(34): error:  #5: cannot open source input file "main_FLP.h": No such file or directory
+  #include "main_FLP.h"
+..\..\..\SRC\Libraries\opus-1.2.1\init_encoder.c: 0 warnings, 1 error
+compiling inner_prod_aligned.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\inner_prod_aligned.c: 0 warnings, 1 error
+compiling interpolate.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\interpolate.c: 0 warnings, 1 error
+compiling k2a_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\k2a_FIX.c: 0 warnings, 1 error
+compiling k2a_Q16_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\k2a_Q16_FIX.c: 0 warnings, 1 error
+compiling kiss_fft.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\kiss_fft.c: 0 warnings, 1 error
+compiling lin2log.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\lin2log.c: 0 warnings, 1 error
+compiling laplace.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\laplace.c: 0 warnings, 1 error
+compiling log2lin.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\log2lin.c: 0 warnings, 1 error
+compiling LP_variable_cutoff.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\LP_variable_cutoff.c: 0 warnings, 1 error
+compiling LPC_analysis_filter.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\LPC_analysis_filter.c: 0 warnings, 1 error
+compiling LPC_fit.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\LPC_fit.c: 0 warnings, 1 error
+compiling LPC_inv_pred_gain.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\LPC_inv_pred_gain.c: 0 warnings, 1 error
+compiling mathops.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\mathops.c: 0 warnings, 1 error
+compiling LTP_analysis_filter_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\LTP_analysis_filter_FIX.c: 0 warnings, 1 error
+compiling mdct.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\mdct.c: 0 warnings, 1 error
+compiling LTP_scale_ctrl_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\LTP_scale_ctrl_FIX.c: 0 warnings, 1 error
+compiling mlp.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\mlp.c: 0 warnings, 1 error
+compiling mlp_data.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\mlp_data.c: 0 warnings, 1 error
+compiling NLSF_decode.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF_decode.c: 0 warnings, 1 error
+compiling modes.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\modes.c: 0 warnings, 1 error
+compiling NLSF_del_dec_quant.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF_del_dec_quant.c: 0 warnings, 1 error
+compiling NLSF_encode.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF_encode.c: 0 warnings, 1 error
+compiling NLSF_unpack.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF_unpack.c: 0 warnings, 1 error
+compiling NLSF_stabilize.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF_stabilize.c: 0 warnings, 1 error
+compiling NLSF_VQ.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF_VQ.c: 0 warnings, 1 error
+compiling NLSF_VQ_weights_laroia.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF_VQ_weights_laroia.c: 0 warnings, 1 error
+compiling NLSF2A.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NLSF2A.c: 0 warnings, 1 error
+compiling noise_shape_analysis_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\noise_shape_analysis_FIX.c: 0 warnings, 1 error
+compiling NSQ.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NSQ.c: 0 warnings, 1 error
+compiling NSQ_del_dec.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\NSQ_del_dec.c: 0 warnings, 1 error
+compiling opus_encoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\opus_encoder.c: 0 warnings, 1 error
+compiling opus.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\opus.c: 0 warnings, 1 error
+compiling opus_decoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\opus_decoder.c(33): error:  #35: #error directive: "OPUS_BUILD _MUST_ be defined to build Opus. This probably means you need other defines as well, as in a config.h. See the included build files for details."
+  # error "OPUS_BUILD _MUST_ be defined to build Opus. This probably means you need other defines as well, as in a config.h. See the included build files for details."
+..\..\..\SRC\Libraries\opus-1.2.1\opus_decoder.c: 0 warnings, 1 error
+compiling opus_multistream.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\opus_multistream.c: 0 warnings, 1 error
+compiling opus_multistream_decoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\opus_multistream_decoder.c: 0 warnings, 1 error
+compiling pitch_analysis_core_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\pitch_analysis_core_FIX.c: 0 warnings, 1 error
+compiling opus_multistream_encoder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\opus_multistream_encoder.c: 0 warnings, 1 error
+compiling pitch.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\pitch.c: 0 warnings, 1 error
+compiling pitch_est_tables.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\pitch_est_tables.c: 0 warnings, 1 error
+compiling PLC.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\PLC.c: 0 warnings, 1 error
+compiling process_NLSFs.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\process_NLSFs.c: 0 warnings, 1 error
+compiling process_gains_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\process_gains_FIX.c: 0 warnings, 1 error
+compiling quant_bands.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\quant_bands.c: 0 warnings, 1 error
+compiling quant_LTP_gains.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\quant_LTP_gains.c: 0 warnings, 1 error
+compiling rate.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\rate.c: 0 warnings, 1 error
+compiling regularize_correlations_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\regularize_correlations_FIX.c: 0 warnings, 1 error
+compiling repacketizer.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\repacketizer.c: 0 warnings, 1 error
+compiling resampler_down2.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler_down2.c: 0 warnings, 1 error
+compiling resampler.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler.c: 0 warnings, 1 error
+compiling resampler_down2_3.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler_down2_3.c: 0 warnings, 1 error
+compiling resampler_private_AR2.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler_private_AR2.c: 0 warnings, 1 error
+compiling resampler_private_down_FIR.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler_private_down_FIR.c: 0 warnings, 1 error
+compiling resampler_private_IIR_FIR.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler_private_IIR_FIR.c: 0 warnings, 1 error
+compiling resampler_rom.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler_rom.c: 0 warnings, 1 error
+compiling residual_energy_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\residual_energy_FIX.c: 0 warnings, 1 error
+compiling resampler_private_up2_HQ.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\resampler_private_up2_HQ.c: 0 warnings, 1 error
+compiling residual_energy16_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\residual_energy16_FIX.c: 0 warnings, 1 error
+compiling schur64_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\schur64_FIX.c: 0 warnings, 1 error
+compiling schur_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\schur_FIX.c: 0 warnings, 1 error
+compiling shell_coder.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\shell_coder.c: 0 warnings, 1 error
+compiling sigm_Q15.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\sigm_Q15.c: 0 warnings, 1 error
+compiling sort.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\sort.c: 0 warnings, 1 error
+compiling stereo_encode_pred.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\stereo_encode_pred.c: 0 warnings, 1 error
+compiling stereo_decode_pred.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\stereo_decode_pred.c: 0 warnings, 1 error
+compiling stereo_find_predictor.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\stereo_find_predictor.c: 0 warnings, 1 error
+compiling stereo_LR_to_MS.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\stereo_LR_to_MS.c: 0 warnings, 1 error
+compiling stereo_MS_to_LR.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\stereo_MS_to_LR.c: 0 warnings, 1 error
+compiling stereo_quant_pred.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\stereo_quant_pred.c: 0 warnings, 1 error
+compiling tables_gain.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\tables_gain.c: 0 warnings, 1 error
+compiling sum_sqr_shift.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\sum_sqr_shift.c: 0 warnings, 1 error
+compiling table_LSF_cos.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\table_LSF_cos.c: 0 warnings, 1 error
+compiling tables_LTP.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\tables_LTP.c: 0 warnings, 1 error
+compiling tables_NLSF_CB_NB_MB.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\tables_NLSF_CB_NB_MB.c: 0 warnings, 1 error
+compiling tables_NLSF_CB_WB.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\tables_NLSF_CB_WB.c: 0 warnings, 1 error
+compiling tables_other.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\tables_other.c: 0 warnings, 1 error
+compiling tables_pitch_lag.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\tables_pitch_lag.c: 0 warnings, 1 error
+compiling tables_pulses_per_block.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\tables_pulses_per_block.c: 0 warnings, 1 error
+compiling VAD.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\VAD.c: 0 warnings, 1 error
+compiling vector_ops_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\vector_ops_FIX.c: 0 warnings, 1 error
+compiling VQ_WMat_EC.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\VQ_WMat_EC.c: 0 warnings, 1 error
+compiling vq.c...
+..\..\..\SRC\Libraries\opus-1.2.1\arch.h(39): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\vq.c: 0 warnings, 1 error
+assembling celt_pitch_xcorr_arm_keil.s...
+compiling warped_autocorrelation_FIX.c...
+..\..\..\SRC\Libraries\opus-1.2.1\typedef.h(33): error:  #5: cannot open source input file "app_error.h": No such file or directory
+  #include "app_error.h"
+..\..\..\SRC\Libraries\opus-1.2.1\warped_autocorrelation_FIX.c: 0 warnings, 1 error
+compiling sbc_analysis.c...
+compiling sbc_dct.c...
+compiling sbc_enc_bit_alloc_mono.c...
+compiling sbc_dct_coeffs.c...
+compiling sbc_enc_bit_alloc_ste.c...
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.16.0.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.16.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.16.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_flash_s132_nrf52_6.0.0_softdevice
+  D:\Software\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: NordicSemiconductor::Device:Startup:8.16.0
+      Include file:  Device\Include\system_nrf52.h
+      Source file:   Device\Source\system_nrf52.c
+      Source file:   Device\Source\arm\arm_startup_nrf52.s
+Project build/rebuild aborted.
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>

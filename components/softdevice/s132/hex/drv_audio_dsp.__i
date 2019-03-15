@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths
+-I.\RTE\_flash_s132_nrf52_6.0.0_softdevice
+-ID:\Software\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include
+-ID:\Software\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DNRF52 -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"
+-o ..\..\..\..\..\..\components\softdevice\s132\hex\drv_audio_dsp.o --omf_browse ..\..\..\..\..\..\components\softdevice\s132\hex\drv_audio_dsp.crf --depend ..\..\..\..\..\..\components\softdevice\s132\hex\drv_audio_dsp.d "..\..\..\SRC\m_audio\drv_audio_dsp.c"

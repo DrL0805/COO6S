@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\..\..\config -I ..\config  --cpreproc_opts=-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192
+-I.\RTE\_flash_s132_nrf52_6.0.0_softdevice
+-ID:\Software\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include
+-ID:\Software\Keil_v5\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1" --pd "__HEAP_SIZE SETA 8192" --pd "__STACK_SIZE SETA 8192"
+--list .\_build\task_manager_core_keil.lst --xref -o ..\..\..\..\..\..\components\softdevice\s132\hex\task_manager_core_keil.o --depend ..\..\..\..\..\..\components\softdevice\s132\hex\task_manager_core_keil.d "..\..\..\..\..\..\components\libraries\experimental_task_manager\task_manager_core_keil.s"
